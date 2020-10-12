@@ -1,0 +1,30 @@
+#brand{
+    color:red;
+    /* margin-right: 500px; */
+    width: 100vw;
+}
+
+#extraStuff{
+    border-bottom: 2px solid #9fbad3 ;
+    background-color: rgba(0,0,0,.35) ;
+    transition: top 0.3s;
+}
+
+.navlink{
+    /* margin: 0,50px,0,50px; */
+    margin-left: 4vw;
+    margin-right: 1.5vw;
+    white-space: nowrap;
+}
+
+#navlink1:hover{
+    color: blue;
+}
+
+#navlink2:hover{
+    color: blue;
+}
+
+#navlink3:hover{
+    color: blue;
+}

@@ -7,7 +7,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar sticky="top" />
+      <Main/>
     </div>
   );
 }
