@@ -7,7 +7,6 @@
 #extraStuff{
     border-bottom: 2px solid #9fbad3 ;
     background-color: rgba(0,0,0,.35) ;
-    transition: top 0.3s;
 }
 
 .navlink{
@@ -18,13 +17,16 @@
 }
 
 #navlink1:hover{
+    transition: 0.3s;
     color: blue;
 }
 
 #navlink2:hover{
     color: blue;
+    transition: 0.3s;
 }
 
 #navlink3:hover{
+    transition: 0.3s;
     color: blue;
 }
