@@ -30,3 +30,17 @@
     transition: 0.3s;
     color: blue;
 }
+
+.test{
+    display:grid;
+    place-items: center;
+    color:blue;
+    border: 3px solid;
+    height: 100vh;
+}
+
+.box{
+    border: 3px solid blue;
+    height:200px;
+    width: 200px;
+}
