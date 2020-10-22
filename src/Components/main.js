@@ -5,7 +5,7 @@ class Main extends React.Component {
     render() {
         return <div className='test' >
             <div className='box test ' >
-                helloooo theeere
+                helloooo there
             </div>
         </div>
     }
