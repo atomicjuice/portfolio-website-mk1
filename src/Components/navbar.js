@@ -6,18 +6,8 @@ import '../extraCSS/navbar.css'
 class NavBar extends React.Component {
   
   
-navScrollAnimation = () => { window.onscroll = function() {
-  let prevScrollpos = window.pageYOffset;
-  let currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("extraStuff").style.top = "0";
-  } else {
-    document.getElementById("extraStuff").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}}
+
   render() {
-    // this.navScrollAnimation()
     return (
       <Navbar variant="dark" sticky='top' id='extraStuff' >
         <Navbar.Brand href="#home" id='brand' >Navbar</Navbar.Brand>
