@@ -1,6 +1,5 @@
 #brand{
     color:rgb(255, 255, 255);
-    /* margin-right: 500px; */
     width: 100vw;
 }
 
@@ -8,6 +7,13 @@
     border-bottom: 2px solid #9fbad3 ;
     background-color: rgba(0,0,0,.35) ;
 }
+
+@media screen and (max-width:400px){
+    #extraStuff{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
 
 .navlink{
     /* margin: 0,50px,0,50px; */

@@ -2,13 +2,13 @@ import React from 'react'
 import '../../myCSS/aboutme.css';
 
 class AboutMe extends React.Component {
-    
+
     render() {
-        const yourBit="Im a software engineer based in London \n\n and focus on building web apps for all your digital needs"
+        // const yourBit = "Im a software engineer based in London \n\n and focus on building web apps for all your digital needs"
         return (
             <div id='aboutMeContainer'>
                 <p>
-                    Hi, I'm   
+                    Hi, I'm
                 </p>
                 <h1>
                     Keemo,
@@ -16,7 +16,10 @@ class AboutMe extends React.Component {
                 <h1>
                     and I build things online
                 </h1>
-                {yourBit}
+                <p>
+                    I'm a software engineer based in London, and I build web apps for all your digital needs.
+                </p>
+                {/* {yourBit} */}
             </div>
         )
     }
