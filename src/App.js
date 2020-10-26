@@ -1,18 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 // import Main from './Components/main'
 import Navbar from './Components/navbar'
 import Aboutme from './Components/Sections/aboutme';
 import './App.css';
 
-function App() {
+class App extends Component {
+  state = {
+    screenWidth: window.screen.width
+  }
+
+  forPhone = () => {
+    if (this.state.screenWidth <= 400){
+      return <Navbar sticky="top" /> 
+    }
+  }
+  render(){
   return (
     <div className='App' >
-      <Navbar sticky="top" />
+      {this.forPhone()}
+      {/* <Navbar sticky="top" /> */}
       {/* <Main/> */}
       <Aboutme/>
     </div>
   );
-}
+}}
 
 export default App;
