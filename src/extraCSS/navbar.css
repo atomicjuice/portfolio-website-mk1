@@ -21,19 +21,9 @@
     white-space: nowrap;
 }
 
-#navlink1:hover{
-    transition: 0.3s;
-    color: blue;
-}
-
-#navlink2:hover{
-    color: blue;
-    transition: 0.3s;
-}
-
-#navlink3:hover{
-    transition: 0.3s;
-    color: blue;
+.navlink:hover{
+    color: #ffffff !important ;
+    transition: 0.2s !important ;
 }
 
 .test{
